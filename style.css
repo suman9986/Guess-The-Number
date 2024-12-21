@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:wght@400;500;600&family=Ruda:wght@400;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0f2754;
+}
+
+.container{
+    max-width: 850px;
+    width :100%;
+    box-shadow: 0 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    color: #000;
+    background: #ddd;
+    border-radius: 5px;
+    transition: all 0.6s ease-in;
+
+
+}
+
+.container-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.container .btn-again{
+   border: none;
+   padding: 0.5rem 1.5rem;
+   cursor: pointer;
+   outline: none;
+   background-color: rgb(227, 46, 136);
+   font-size: 0.9rem;
+   color: white;
+   border-radius: 4px;
+   font-family: inherit;
+   /* transition: 0.3s ease-in-out; */
+
+}
+.container .btn-check{
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(227, 46, 136);
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 4px;
+    font-family: inherit;
+    /* transition: 0.3s ease-in-out; */
+ 
+ }
+ 
+
+.container .btn:focus{
+   transform: scale(0.98);
+   outline:none
+   
+}
+
+.container h2{
+     text-align: center;
+     font-size: 3rem;
+     margin: 1rem 0;
+
+}
+.container .hide-num{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0;
+    background-color:rgb(227, 46, 136);
+    color: white;
+    width: 120px;
+    border-radius: 4px ;
+    margin: auto;
+}
+.message{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+}
+.number-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.number-data input{
+    border: none;
+    outline: none;
+    padding: o.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    border: 1px solid gray;    
+}
+.number-data button{
+    margin-top: 0.75rem;
+    display: block;
+}
+.content{
+    font-size: 1.4rem;
+}
