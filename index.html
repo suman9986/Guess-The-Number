@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-wrapper">
+            <button class="btn-again">Play Again</button>
+            <p>Enter Number between 0 to 100</p>
+        </div>
+        <h2>Guess the number</h2>
+        <p class="hide-num">?</p>
+        <p class="message">Start the guessing......</p>
+        <div class="number-data">
+            <form>
+                <input type="number" placeholder="Enter your lucky number!" class="input-num">
+                <button type="button" class="btn-check">Check Now</button>
+            </form>
+            <div class="content">
+                <p>Score: <span class="score">100</span></p>
+                <p>High Score: <span class="high-score">0</span></p>
+                <p>Attempt: <span class="attempt">0</span></p>
+            </div>
+        </div>
+        <audio id="correct" src="correct.mp3" preload="auto"></audio>
+        <audio  id="wrong"src="wrong.mp3" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
